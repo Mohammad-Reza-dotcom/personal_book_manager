@@ -1,0 +1,107 @@
+# 📚 Personal Book Manager
+
+A simple personal book management application built with **Python**. It allows users to add multiple books, view their book collection, and save book information so it remains available even after closing the program.
+
+## ✨ Features
+
+- Add multiple books
+- Display all books
+- Save book information in a JSON file
+- Load previously saved books
+- Handle missing JSON files
+- Admin Mode with password protection
+- Secure password configuration using environment variables
+
+## 🛠️ Requirements
+
+- Python 3
+- python-dotenv
+
+## 📁 Project Structure
+
+```text
+personal_book_manager/
+│
+├── main.py
+├── books.py
+├── .env.example
+├── .gitignore
+├── requirements.txt
+├── README.md
+│
+└── images/
+    └── personal book.png
+```
+
+## 🚀 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/personal_book_manager.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd personal_book_manager
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 🔐 Environment Setup
+
+Create a file named `.env` in the main project directory.
+
+The `.env.example` file is provided as a template to show which environment variables are required.
+
+The project requires the following environment variable:
+
+```env
+BOOK_MANAGER_ADMIN_PASSWORD
+```
+
+Add this variable to your `.env` file:
+
+```env
+BOOK_MANAGER_ADMIN_PASSWORD=your_password_here
+```
+
+Replace `your_password_here` with your own password.
+
+**Important Security Notes:**
+
+- Never upload your `.env` file to GitHub.
+- Keep your actual password private.
+- Include the `.env.example` file in your repository.
+- Keep the actual `.env` file local.
+
+## ▶️ Run the Program
+
+The main application file is `main.py`.
+
+Run the application using:
+
+```bash
+python main.py
+```
+
+## 📸 Screenshot
+
+![Personal Book Manager Screenshot](images/personal book.png)
+
+## 💻 Technologies Used
+
+- Python
+- JSON
+- python-dotenv
+- Git
+- GitHub
+
+## 👨‍💻 Author
+
+**Mohammad Reza Emran**
