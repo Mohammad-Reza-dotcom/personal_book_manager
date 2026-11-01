@@ -92,7 +92,12 @@ python main.py
 
 ## 📸 Screenshot
 
-![Personal Book Manager Screenshot](images/personal book.png)
+![personalBookManager Screenshot](images/personalbook.png)
+
+## 📦 Gifs
+![personalBookManager gifs](gifs\gifbookmanager.gif)
+
+
 
 ## 💻 Technologies Used
 
