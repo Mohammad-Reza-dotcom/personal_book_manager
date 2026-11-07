@@ -1,3 +1,4 @@
+
 import os
 from dotenv import load_dotenv
 from books import show_books, save_books, load_books
@@ -27,8 +28,23 @@ show_books(books)
 number_of_books = int(input("How many new books do you want to add? "))
 
 for i in range(number_of_books):
+
     book_name = input("Enter book name: ")
-    books.append(book_name)
+
+    book_priority = input(
+        "Enter book priority (low/medium/high): "
+    ).lower()
+
+    while book_priority not in ["low", "medium", "high"]:
+        print("Invalid priority. Try again.")
+        book_priority = input(
+            "Enter book priority (low/medium/high): "
+        ).lower()
+
+    books.append({
+        "name": book_name,
+        "priority": book_priority
+    })
 
 save_books(books)
 

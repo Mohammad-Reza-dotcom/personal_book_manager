@@ -1,3 +1,4 @@
+
 import json
 
 
@@ -8,7 +9,9 @@ def show_books(books):
         print("No books found.")
     else:
         for book in books:
-            print(book)
+            print("Book Name:", book["name"])
+            print("Priority:", book["priority"])
+            print("---------------")
 
 
 def save_books(books):
