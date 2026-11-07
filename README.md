@@ -1,4 +1,6 @@
 # 📚 Personal Book Manager
+![bage](https://img.shields.io/badge/Python-red?logo=Python&logoColor=white)
+
 
 A simple personal book management application built with **Python**. It allows users to add multiple books, view their book collection, and save book information so it remains available even after closing the program.
 
