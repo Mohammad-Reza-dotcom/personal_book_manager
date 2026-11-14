@@ -22,7 +22,7 @@ Each book can have one of three priority levels:
 - low
 - medium
 - high
-
+****
 ## 🛠️ Requirements
 
 - Python 3
@@ -110,7 +110,9 @@ The main application file is `main.py`.
 Run the application using:
 
 ```bash
+
 python main.py
+
 ```
 
 ## Troubleshooting
@@ -134,8 +136,10 @@ python main.py
 - **First check:** Check `requirements.txt` and install the packages:
 
 ```bash
+
 pip install -r requirements.txt
 ```
+
 
 ### 4. Password Not Found
 
